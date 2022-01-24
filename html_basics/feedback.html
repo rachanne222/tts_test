@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/style.css">
+   
+    <title>Feddback Form</title>
+</head>
+<body>
+        <!--Dropdown Menu-->
+<ul>
+        <li><a class="active" href="restaurants.html">Home</a></li>
+        <li><a href="#blog">Login</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">More</a>
+          <div class="dropdown-content">
+            <a href="feedback.html">Feedback</a>
+           
+          </div>
+        </li>
+      </ul>
+    <form action= "testthis.webserver"  method= "post" name="userfeedback">
+        <label id=username class="form"> User Name <input type="text" name= userfeedback class="form"> 
+       </label>
+       <br>
+       <label id=email class="form"> Email<input type="text" name= userfeedback class="form"> 
+       </label>
+       <br>
+       <label id=userfeedback class="form"> Userfeedback <textarea rows="5" cols="20" name= userfeedback class="form">Please tells us what you think</textarea>
+       </label>
+       <button>Submit</button>
+
+    </form> 
+</body>
+</html>

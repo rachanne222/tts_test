@@ -1,0 +1,116 @@
+*{text-align: left;
+  
+    max-width: 1400px;
+    margin: 0 auto; 
+}
+  
+
+/* element*/
+*{color: #13303f; 
+font-family: 'Padauk', sans-serif;}
+
+
+
+
+h2 {text-align: left; 
+padding: 30px;
+background: #13303f;
+background-color: gray
+color: whitesmoke}	
+.rcorners2 {
+border-radius: 15px 50px 30px;
+background: goldenrod;
+padding: 20px; 
+margin:20px;
+height: 150;
+width: 150px; float: left;
+
+
+}
+
+.header{
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto; 
+    margin: 20px
+}
+
+
+
+
+
+P {
+text-align: left ;}
+
+
+
+
+
+
+
+
+
+
+
+/*=====CSS for Dropdown Menus=====*/
+
+ul li {
+
+display: table-cell; 
+text-align: center; 
+width:1200px; 
+vertical-align: middle;
+
+}
+
+li {
+float: left;
+}
+
+li a, .dropbtn {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+background-color: #13303f;
+}
+
+li.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(7, 7, 7, 0.815);
+}
+
+
+
+
+
+/* css for links
+*/
+a:link{color: white; 
+}
+a:visited{color:goldenrod;
+}
+a:hover{color: white;
+background-color: #767d8d7e;
+border-color:gray;
+}
+
+CSS
+Responsive Web Design*/
+
+/* @media only screen and (max-width: 767px) { 
+    color: green;
+}
+
+

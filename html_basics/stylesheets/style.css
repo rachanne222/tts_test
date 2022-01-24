@@ -1,0 +1,169 @@
+
+*{text-align: center;
+  
+        max-width: 1800px;
+        margin: 0 auto; 
+    background-color: gray}
+      
+
+/* element*/
+*{color: #13303f; 
+    font-family: 'Padauk', sans-serif;}
+
+/* id */
+#special
+{color:aquamarine;
+ }
+
+h2 {text-align: left; 
+    padding: 30px;
+    background: #13303f;
+color: whitesmoke}	
+.rcorners2 {
+    border-radius: 15px 50px 30px;
+    background: goldenrod;
+    padding: 20px; 
+    margin:20px;
+    height: 150;
+    width: 150px; float: left;
+
+  
+}
+
+   
+    
+   
+  
+
+P {color:goldenrod;
+    text-align: center;
+    background: whitesmoke;
+    padding: 20px; }
+
+#intro {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+font-size: 30px;
+font-weight: 50}
+
+
+/* element.class */
+p.classtest
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
+
+
+
+
+
+/* .col-md-4{text-align: left } */
+
+#pics{ background-color: gray;
+    padding: 10px;
+margin: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+}
+
+.ls{
+    display: block;
+}
+/*=====CSS for Dropdown Menus=====*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 45;
+    /* overflow: hidden; */
+    background-color: #13303f;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #13303f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #13303f;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #13303f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(7, 7, 7, 0.815);
+}
+
+.dropdown-content a ,#review {
+  
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color:blacj;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.form {padding: 10px;
+margin: 20px;
+display: flex;
+justify-content: center;
+align-items: center; }
+
+/* css for links
+ */
+a:link{color: goldenrod
+   }
+a:visited{color:goldenrod;
+   }
+a:hover{color: white;
+background-color: #767d8d7e;
+border-color:gray;
+}
+ /* css for footer */
+ .fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px
+    
+  }
+
+CSS
+Responsive Web Design*/
+
+/* @media only screen and (max-width: 767px) { 
+        color: green;
+    }
+
+ 
+@media only screen and (min-width: 768px) { 
+    .mytext{
+        color: red;
+    }
+}
+
